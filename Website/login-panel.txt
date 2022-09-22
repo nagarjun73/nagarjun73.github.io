@@ -1,0 +1,80 @@
+<login-panel>
+                  <div class="login" id="user">Username</div>
+                  <input class="login" id="login-panel-username" type="text" placeholder>
+                  <div class="login" id="pass" >Password</div>
+                  <input class="login" id="login-panel-password" type="text" class="fa-solid fa-key" placeholder></br>
+                  <input class="login" id="login-panel-checkbox" type="checkbox"><p id="login-panel-checkbox-p">Remember me</p> </br>
+                  <button class="login" id="sign-button">Sign-in</button>
+                  <a class="login" href="#" id="Need-help-signing" >Need help signing in?</a>
+                </login-panel>
+
+
+
+
+style
+
+
+/* LOGIN PANEL */
+login-panel{
+  position: absolute;
+      display:flex;
+      justify-content:center;
+      right: 0rem;
+      top:2rem;
+      flex-direction: column;
+      background-color: WHITE;
+      border: black solid 1px;
+      padding:1rem;
+      border: none;
+      border-radius:0.5rem;
+      box-shadow:  rgba(0, 0, 0, 0.2) 0px 0px 10px;
+      width: 250px;
+      height: 250px;
+
+}
+
+#login-panel-checkbox{
+      position: relative;
+      bottom: 0.5rem;
+      left: 0rem;
+      width: 13px;
+}
+
+#login-panel-checkbox-p{
+      width: 8rem;
+      position: relative;
+      left: 2rem;
+      bottom: 2.7rem;
+}
+
+#sign-panel{
+      position:relative;
+      bottom: 4rem;
+}
+
+#Need-help-signing{
+      position: relative;
+      bottom: 2rem;
+}
+
+#sign-button{
+  position: relative;
+  bottom: 4rem;
+  background-color: #1AD48E;
+  color: #2a206a;
+  border-radius: 0.5rem;
+  border: none;
+  font-weight: 500;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.login{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding-bottom: 0.25rem;
+    padding-top: 0.25rem;
+}

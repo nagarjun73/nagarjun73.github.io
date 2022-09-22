@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link CSS -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
+    <title>IT Solutions</title>
+</head>
+<body id="body-part">
+          <!-- Navigation -->
+    <header>
+        <nav id="topbar">
+        <div class="page-icon">
+            <img class="nav-link" src="images/icon/it solutions.png">
+        </div>
+        <ul class="header-navbar">
+            <li class="nav-item">
+              <a class="nav-link" >Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" >Who we are</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" >Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Our work</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link">contact us</a>
+            </li>
+            <li class="nav-item">
+                <i class="fa-regular fa-user"></i>
+            </li>
+          </ul>
+        </nav>
+    </header>
+    <main>
+        <!-- Index Hero -->
+        <section id="IndexHero">
+        <div>
+            <h1 id="IndexHero-title">Modern problems require</br> modern solutions</h1>
+            <h3 id="IndexHero-subtitle">We are here to offer end to end Business Services.</h3>
+        </div>
+        <div>
+            <img class="IndexHero-image" src="images/indexHero.png">
+        </div>
+    </section>
+        <!-- carousel -->
+    <section id="container-partners">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            <img class="swiper-slide" src="images/partners/Paytm.png">
+            <img class="swiper-slide" src="images/partners/paypal.png">
+            <img class="swiper-slide" src="images/partners/Impact Cart.png">
+            <img class="swiper-slide" src="images/partners/hetzner-logo-thumb.png">
+            <img class="swiper-slide" src="images/partners/digitalocean-2-logo.png">
+            <img class="swiper-slide" src="images/partners/cashfree.png">
+            </div>
+        </div>
+    </section>
+        <!-- our services -->
+    <section class="Our-services"  >
+      <div class="all-cards-section">
+        <!-- upper cards -->
+      <div class="upper-cards">  
+      <div class="card1">
+          <img src="images/ourservices/web-dev.jpg" class="card-img-top">
+          <div class="card-body">
+          <h5 class="card-title">Web Development</h5>
+          <p class="card-text">We have been at the forefront of the digital revolution helping our clients build websites, that are designed to delight and intrigue customers.</p>
+          </div>
+        </div>
+        <div class="card2">
+          <img src="images/ourservices/app-dev.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">App Development</h5>
+            <p class="card-text">Robust Apps built for both iOS / Android as per your requirements. We follow a strategic process of Planning, Developing, Testing, Security & Deployment</p>
+          </div>
+      </div>
+    </div>
+    <!-- lower cards -->
+  </div>
+    <div class="lower-cards">  
+      <div class="card3">
+          <img src="images/ourservices/digial-marketing.jpg" class="card-img-top">
+          <div class="card-body">
+          <h5 class="card-title">Digital Marketing</h5>
+          <p class="card-text">We have a team of expert Digital Marketers to help your business grow online. We offer a complete range of Digital Marketing services.</p>
+          </div>
+        </div>
+        <div class="card4">
+          <img src="images/ourservices/20943445.jpg" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">IT Consultation</h5>
+            <p class="card-text">Our team of experts are always behind every single project and ready to go to lengths to meet your expectations.</p>
+          </div>
+      </div>
+    </div>
+    <!-- Heading text -->
+    <div class="heading-text">
+      <h1>Our services</h1>
+      <p>Our End to End Business Services and latest product line up are one of it's kind, check out our portfolio.</p>
+    </div>
+
+    </section>
+    </main>
+    <script src="https://kit.fontawesome.com/e2c8c5dcbc.js" crossorigin="anonymous"></script>
+
+     <!-- Swiper JS -->
+     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script> 
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 5,
+            centeredSlides: false,
+            spaceBetween: 30,
+            autoplay: {
+            delay: 2000,
+            disableOnInteraction: false,
+          },
+          pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+      </script> 
+</body>
+</html>
