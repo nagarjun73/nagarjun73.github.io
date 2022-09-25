@@ -4,13 +4,19 @@
   box-sizing: border-box;
 }
 
+body {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+
 #navbar {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  width: 100vw;
+  width: 100%;
   height: 5rem;
-  background-color: #e74c3c;
+  background-color: #fa7070;
   position: fixed;
 }
 
@@ -38,8 +44,8 @@
 }
 
 #welcome-section {
-  background-color: #303841;
-  width: 100vw;
+  background-color: #fbf2cf;
+  width: 100%;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -48,21 +54,23 @@
 }
 
 #welcome-section h1 {
+  width: 100%;
   font-size: 40px;
   margin-bottom: 2rem;
-  color: white;
+  color: #fa7070;
 }
 
 #welcome-section h3 {
   font-size: 20px;
-  color: white;
+  color: #fa7070;
   font-style: italic;
+  width: 100%;
 }
 
 #projects {
-  width: 100vw;
-  height: 150%;
-  background-color: #ecf0f1;
+  width: 100%;
+  height: 140vh;
+  background-color: #c6ebc5;
 }
 
 img {
@@ -72,6 +80,7 @@ img {
 
 #projects h1 {
   display: block;
+  width: 100%;
   text-align: center;
   padding-top: 5rem;
   font-size: 35px;
@@ -99,17 +108,23 @@ img {
   color: white;
 }
 
-button {
-  display: block;
-  margin: 3rem auto;
+#button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 5rem;
+}
+
+#button input {
   width: 6rem;
   height: 2.5rem;
+  z-index: 0.1;
 }
 
 #last-section {
-  width: 100vw;
+  width: 100%;
   height: 80vh;
-  background-color: #303841;
+  background-color: #a1c298;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -149,7 +164,7 @@ footer {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  width: 100vw;
+  width: 100%;
   height: 10vh;
   background-color: #303841;
 }
@@ -182,5 +197,11 @@ footer h4 {
     font-size: 25px;
     padding: 1.5rem 1rem;
     transition: 0.75s;
+  }
+
+  #projects {
+    width: 100%;
+    height: 100vh;
+    background-color: #c6ebc5;
   }
 }
