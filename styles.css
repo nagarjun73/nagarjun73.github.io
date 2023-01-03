@@ -165,7 +165,7 @@ img {
   text-decoration: none;
 }
 
-.project-tile p {
+.project-tile-name {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -173,6 +173,10 @@ img {
   height: 5vh;
   text-decoration: none;
   color: white;
+}
+
+.project-tile-info {
+  margin-top: 1rem;
 }
 
 #button {
