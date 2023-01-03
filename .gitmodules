@@ -1,3 +1,6 @@
 [submodule "Projects/Mapty"]
 	path = Projects/Mapty
 	url = https://github.com/nagarjun73/mapty.git
+[submodule "Projects/Bankist"]
+	path = Projects/Bankist
+	url = https://github.com/nagarjun73/Bankify.git
