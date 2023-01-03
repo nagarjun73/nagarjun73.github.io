@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nagarjun's portfolio</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e2c8c5dcbc.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
 
   <body>
@@ -12,7 +16,7 @@
       <nav id="navbar">
         <ul class="nav__links">
           <li><a class="nav__link" href="#welcome-section">About</a></li>
-          <li><a class="nav__link" href="#welcome-section">Skills</a></li>
+          <li><a class="nav__link" href="#skills-section">Skills</a></li>
           <li><a class="nav__link" href="#projects">Projects</a></li>
           <li><a class="nav__link" href="#last-section">Contact</a></li>
         </ul>
@@ -42,6 +46,33 @@
           </div>
         </div>
       </section>
+      <section>
+        <div id="skills-section">
+          <h1>Skills</h1>
+          <div class="skills-container">
+            <div class="skills-logo">
+              <i class="fa-brands fa-js fa-10x"></i>
+              <p class="skills-name">JavaScript</p>
+            </div>
+            <div class="skills-logo">
+              <i class="fa-brands fa-css3-alt fa-10x"></i>
+              <p class="skills-name">CSS</p>
+            </div>
+            <div class="skills-logo">
+              <i class="fa-brands fa-html5 fa-10x"></i>
+              <p class="skills-name">HTML</p>
+            </div>
+            <div class="skills-logo">
+              <i class="fa-brands fa-bootstrap fa-10x"></i>
+              <p class="skills-name">BOOTSTRAP</p>
+            </div>
+            <div class="skills-logo">
+              <i class="fa-brands fa-sass fa-10x"></i>
+              <p class="skills-name">SASS</p>
+            </div>
+          </div>
+        </div>
+      </section>
 
       <section>
         <div id="projects">
@@ -49,12 +80,13 @@
           <div class="project-tile">
             <div>
               <a href="./Projects/Mapty/index.html">
+                <p class="project-tile-name">Mapty</p>
+
                 <img
                   src="./Projects/Mapty/Screenshot Mapty.png"
                   alt="Screenshot Mapty"
                   target="_blank"
                 />
-                <p class="project-tile-name">Mapty</p>
               </a>
 
               <p class="project-tile-info">
@@ -67,12 +99,13 @@
 
             <div>
               <a href="./Projects/Bankist/index.html">
+                <p class="project-tile-name">Bankist</p>
+
                 <img
                   src="./Projects/Bankist/Screenshot Bankist.png"
                   alt="image"
                   target="_blank"
                 />
-                <p class="project-tile-name">Bankist</p>
               </a>
               <p class="project-tile-info">
                 An app that displays users’ most recent transactions after they
@@ -84,7 +117,9 @@
             </div>
           </div>
           <div id="button">
-            <input type="button" value="Show all" />
+            <a href="https://github.com/nagarjun73?tab=repositories"
+              ><input type="button" value="Show all"
+            /></a>
           </div>
         </div>
       </section>
