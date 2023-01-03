@@ -1,0 +1,3 @@
+[submodule "Projects/Mapty"]
+	path = Projects/Mapty
+	url = https://github.com/nagarjun73/mapty.git
