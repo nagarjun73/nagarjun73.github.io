@@ -165,6 +165,11 @@ img {
   text-decoration: none;
 }
 
+.project-tile img {
+  height: 16rem;
+  width: 36rem;
+}
+
 .project-tile-name {
   display: flex;
   justify-content: center;
