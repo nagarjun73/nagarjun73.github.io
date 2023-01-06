@@ -9,3 +9,8 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
     document.querySelector(id).scrollIntoView({ behavior: "smooth" });
   }
 });
+
+const footerYr = document.querySelector(".footer_year");
+const now = new Date().getFullYear();
+footerYr.textContent = `©️ ${now} Nagarjun`;
+console.log();

@@ -32,7 +32,7 @@ body {
   display: inline;
   color: white;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 #version {
@@ -98,7 +98,7 @@ body {
   background-position: 0 0;
   animation: backcolor 2s linear;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 #welcome-section h2 {
@@ -110,7 +110,7 @@ body {
   background-position: 0 0;
   animation: backcolor 4s linear;
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 #welcome-section p {
@@ -157,7 +157,7 @@ body {
   padding-top: 5rem;
   font-size: 35px;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .skills-container {
@@ -218,7 +218,7 @@ img {
   text-align: center;
   padding-top: 5rem;
   font-size: 50px;
-  font-weight: 500;
+  font-weight: 300;
 }
 
 .project-tile {
@@ -233,7 +233,7 @@ img {
 
 .project-tile div {
   width: 30rem;
-  padding: 0 2rem;
+  padding: 2rem 2rem;
 }
 
 .project-tile a {
@@ -295,14 +295,16 @@ img {
   text-align: center;
   font-size: 35px;
   color: #2c3e50;
-  font-size: 50px;
-  font-weight: 500;
+  font-size: 60px;
+  font-weight: 300;
 }
 #last-section p {
   display: block;
   text-align: center;
   padding-top: 1rem;
   color: #2c3e50;
+  font-size: 30px;
+  font-weight: 200;
 }
 
 #social {
@@ -318,6 +320,8 @@ img {
   text-decoration: none;
   color: #2c3e50;
   padding-top: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 #profile-link {
