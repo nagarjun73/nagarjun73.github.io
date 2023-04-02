@@ -13,5 +13,5 @@ document.querySelector(".nav__links").addEventListener("click", function (e) {
 //FOOTER FUNTIONS
 const footerYr = document.querySelector(".footer_year");
 const now = new Date().getFullYear();
-footerYr.textContent = `©️ ${now} Nagarjun v 1.0`;
+footerYr.textContent = `©️ ${now} Nagarjun Portfolio v 1.0`;
 console.log();

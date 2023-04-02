@@ -176,6 +176,10 @@ body {
   color: #f0db4f;
 }
 
+.fa-python {
+  color: #4b8bbe;
+}
+
 .fa-css3-alt {
   color: #3c99dc;
 }
@@ -188,8 +192,8 @@ body {
   color: #553c7b;
 }
 
-.fa-sass {
-  color: #cd6799;
+.fa-sharp {
+  color: #224336;
 }
 
 .skills-logo p {
