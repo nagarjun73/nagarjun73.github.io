@@ -319,6 +319,10 @@ img {
   margin: 3rem auto;
 }
 
+#social a:hover {
+  color: #3c99dc;
+}
+
 #social a {
   font-size: 20px;
   text-decoration: none;
@@ -326,6 +330,7 @@ img {
   padding-top: 5rem;
   padding-left: 1rem;
   padding-right: 1rem;
+  transition-duration: 1s;
 }
 
 #profile-link {
